@@ -22,11 +22,15 @@ echo 'Ana fez a prova:' . PHP_EOL;
 var_dump(isset($notas['Ana']));
 
 echo 'Alguém tirou 10?' . PHP_EOL;
+// terceiro parametro true para === e false para ==
 var_dump(in_array(10, $notas, true));
 
 echo 'Quem tirou 10?' . PHP_EOL;
+// busca no array a chave q possui o valor
 var_dump(array_search(10, $notas, true));
 
 // array_key_exists = verifica se a chave existe
+
 // in_array = verifica se o valor existe
-// isset = verifica se a chave existe e não é nula
+
+// isset = verifica se a chave existe e não é nula(verifica se a variavel ta definida)
