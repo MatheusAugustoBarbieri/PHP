@@ -1,5 +1,6 @@
 <?php
 
+// string numerica, se a string tiver somente numeros o php entende para fazer operações matematicas
 $anoNascimento = '1997';
 
 $idade = 2022 - $anoNascimento;

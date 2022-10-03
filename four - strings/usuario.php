@@ -33,4 +33,6 @@ echo 'Sobrenome: ' . $sobrenome . PHP_EOL;
 $csv = 'Vinicius Dias,24,vinicius@alura.com.br';
 var_dump(explode(',', $csv));
 
+
+//remove os espaços do inicio e do fim, ou o caracter q vc passar no segundo parametro
 echo trim($email) . PHP_EOL;
