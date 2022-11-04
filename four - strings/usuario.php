@@ -9,7 +9,7 @@ $senha = 'áéíóú';
 echo mb_strlen($senha) . PHP_EOL;
 
 if (mb_strlen($senha) < 8) {
-    echo 'Senha insergura' . PHP_EOL;
+    echo 'Senha insegura' . PHP_EOL;
 }
 
 // pega a posição da string (se passar assim @alura.com.br ele pega de onde começou)
